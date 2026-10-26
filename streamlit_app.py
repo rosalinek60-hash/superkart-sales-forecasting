@@ -57,7 +57,7 @@ Product_Type_Category = st.selectbox(
 )
 
 # Backend API address inside the Docker network
-api_url = "http://superkart-backend:7860/v1/predict"
+api_url = "http://10.20.0.1:7860/v1/predict"
 
 if st.button("Predict Sales"):
 
